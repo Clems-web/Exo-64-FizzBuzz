@@ -1,14 +1,14 @@
-for (x=1; x <= 100; x++) {
-    if (( (x % 3) === 0) && ((x % 5) === 0)) {
+for (nombre = 1; nombre <= 100; nombre++) {
+    if (( (nombre % 3) === 0) && ((nombre % 5) === 0)) {
         console.log("FizzBuzz");
     }
-    else if ((x % 3) === 0) {
+    else if ((nombre % 3) === 0) {
         console.log("Fizz");
     }
-    else if ((x % 5) === 0) {
+    else if ((nombre % 5) === 0) {
         console.log("Buzz");
     }
     else {
-        console.log(x)
+        console.log(nombre)
     }
 }
